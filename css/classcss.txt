@@ -1,0 +1,36 @@
+<!--
+You declare a CSS class by using a dot (.) followed by the class name. You make up the class name yourself.
+ After the class name you simply enter the properties/values that you want to assign to your class.
+
+CLASS SYNTAX:
+.class-name { property:value; }
+-->
+<!DOCTYPE html>
+<title>Example</title>
+<style>
+  div.css-section { 
+    border:1px dotted red; 
+    padding: 20px;
+    }
+  p.css-section { 
+    color:green; 
+    }
+	
+	 div#css-section { 
+    border:2px solid red; 
+    padding: 20px;
+    }
+</style>
+<div class="css-section">CSS Class</div>
+<p class="css-section">CSS classes can be very useful</p>
+
+
+<!--The syntax for declaring a CSS ID is the same as for classes, except that instead of using a dot, you use a hash (#).
+
+
+#id-name { property:value; }
+-->
+
+<div id="css-section">
+  This lucky div has ID...
+</div>

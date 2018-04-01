@@ -1,0 +1,5 @@
+
+# usingNode
+
+*interact with Node console(node)
+* run a file with node(node <filename>)

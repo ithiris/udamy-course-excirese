@@ -1,0 +1,27 @@
+{
+  "name": "webcamp",
+  "version": "0.0.1",
+  "main": "server/app.js",
+  "dependencies": {
+    "async": "1.4.2",
+    "body-parser": "1.5.0",
+    "connect-livereload": "0.4.0",
+    "connect-mongo": "0.8.1",
+    "ejs": "^2.5.8",
+    "express": "4.9.0",
+    "express-session": "1.0.2",
+    "jsonwebtoken": "5.0.0",
+    "mongoose": "4.0.3",
+    "morgan": "1.0.0",
+    "path": "0.11.14"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "build": "grunt build",
+    "startapp": "cd dist &&  SET NODE_ENV=production&& node server/app.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

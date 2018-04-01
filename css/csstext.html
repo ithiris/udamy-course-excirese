@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<title>Text in css</title>
+<style>
+  
+h1  {
+    color: olive;
+	text-align: right;
+
+  }
+
+
+ p {
+    text-indent: 350px;
+  }
+  
+   h2 {
+    letter-spacing: 5px;
+  }
+  .wrdspc
+  {
+  word-spacing:50px;
+  text-indent:10px;
+  }
+  
+   .overline {
+    text-decoration: overline;
+	text-indent:10px;
+  }
+  .line-through {
+    text-decoration: line-through;
+	text-indent:10px;
+  }
+  .underline {
+    text-decoration: underline;
+	text-indent:10px;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+   .uppercase {
+    text-transform: uppercase;
+  }
+  .lowercase {
+    text-transform: lowercase;
+  }
+  .capitalize {
+    text-transform: capitalize;
+  }
+  
+  h3 {
+  direction:rtl;
+  unicode-bidi: bidi-override;
+   text-shadow: 4px 4px 5px orange;
+
+  }
+  
+  .whitespc{
+  white-space:pre;
+  }
+  
+  </style>
+<h1>This CSS text color is olive</h1>
+
+
+<p>This text is indented by 350 pixels. What this means is that the first 
+line of the paragraph will be indented by 50 pixels,
+ but the following lines will not be indented.
+ The text will need to wrap before you can see the indent - hence all this text!</p>
+ 
+ <h2>This text has letter spacing applied</h2>
+ <p class="wrdspc">this text has word spacing applied</p>
+ <hr/>
+ <p class="overline">This text has a line over the top</p>
+<p class="line-through">This text has a line through the middle</p>
+<p class="underline">This text has a line underneath</p>
+<a href="/css/" target="_blank">This hyperlink has no underline</a>
+<hr/>
+
+<p class="uppercase">This text has been transformed to uppercase</p>
+<p class="lowercase">THIS TEXT HAS BEEN TRANSFORMED TO LOWERCASE</p>
+<p class="capitalize">this text has been capitalized.</p>
+
+
+<hr/>
+<h3> text backwards and
+ shadow property applied</h3>
+ 
+ <p class="whitespc">This text has a line break
+	(actually, it has
+many line breaks!)
+and the 
+   white-space pre setting 
+tells the browser to honor it
+      just like 
+	the HTML pre tag.
+
