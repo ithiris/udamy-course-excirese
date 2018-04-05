@@ -1,0 +1,23 @@
+#yelpCamp
+
+* Add landing page
+* Add Campgrounds page that lists all campgrounds
+
+
+Each Campground has:
+
+*name
+*Image
+
+
+#layout and basic styling
+
+*Create our header and footer partials
+*Add in Bootstrap
+
+
+#Creating New Campgrounds
+
+* Setup new campgrounds post route
+*Setup route to show form
+* Add basic unstyled form
